@@ -32,13 +32,7 @@ module.exports = {
       background_color: "#1A2634",
       icons: [
         {
-          src: "public/favicon.ico",
-          sizes: "32x32",
-          type: "image/svg+xml",
-          purpose: "any maskable",
-        },
-        {
-          src: "img/icons/logo.png",
+          src: "public/img/icons/logo.png",
           sizes: "512x512",
           type: "image/png",
           purpose: "any"
@@ -50,13 +44,6 @@ module.exports = {
     msTileColor: "#000000",
     appleMobileWebAppCapable: "yes",
     appleMobileWebAppStatusBarStyle: "black",
-    iconPaths: {
-      maskicon: null,
-      favicon32: "./favicon32.png",
-      favicon16: "./favicon16.png",
-      appleTouchIcon: null,
-      msTileImage: null,
-    },
     // configure the workbox plugin
     workboxPluginMode: "InjectManifest",
     workboxOptions:{
