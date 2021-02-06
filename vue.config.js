@@ -32,7 +32,7 @@ module.exports = {
       background_color: "#1A2634",
       icons: [
         {
-          src: "./favicon.ico",
+          src: "public/favicon.ico",
           sizes: "32x32",
           type: "image/svg+xml",
           purpose: "any maskable",
