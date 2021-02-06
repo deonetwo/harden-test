@@ -5,7 +5,7 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "start": "node main.js"
+    "start": "npm run serve"
   },
   "dependencies": {
     "@ckeditor/ckeditor5-adapter-ckfinder": "^24.0.0",
