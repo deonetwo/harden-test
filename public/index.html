@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#1A2634"/>
+
+
+    <title><%= htmlWebpackPlugin.options.title %></title>
+    <link rel="icon" type="image" href="/favicon.ico"/>
+    <link rel="manifest" href="/manifest.json">
+    <link rel="apple-touch-icon" href="/img/icons/logo.png">
+
+    <!-- SEO Verify ownership  -->
+    <meta name="google-site-verification" content="b3aUoCNh7zo_nH4fASlVSL6in5999H82x7FjvJcwJUg" />
+
+    <!-- Preconnect the font file origin -->
+    <link rel="preconnect" 
+          href="https://fonts.googleapis.com"
+          crossorigin />
+    <link rel="preconnect" 
+          href="https://cdn.jsdelivr.net">
+    
+    <!-- Preload the font styleshee asynchornously with low priority -->
+    <link rel="preload" 
+          as="style"
+          href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" >
+    
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900"
+          media="print" onload="this.media='all'">
+    
+    <link rel="preload" 
+          as="style"
+          href="https://cdn.jsdelivr.net/npm/@mdi/font@latest/css/materialdesignicons.min.css">
+    
+    <link rel="stylesheet" 
+          href="https://cdn.jsdelivr.net/npm/@mdi/font@latest/css/materialdesignicons.min.css"
+          media="print" onload="this.media='all'">
+
+
+    <nonscript>
+      <link rel="stylesheet" 
+            href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900">
+      <link rel="stylesheet" 
+            href="https://cdn.jsdelivr.net/npm/@mdi/font@latest/css/materialdesignicons.min.css">
+    </nonscript>
+
+  </head>
+  <body>
+      <script>
+      (function(w,d,s,g,js,fs){
+        g=w.gapi||(w.gapi={});g.analytics={q:[],ready:function(f){this.q.push(f);}};
+        js=d.createElement(s);fs=d.getElementsByTagName(s)[0];
+        js.src='https://apis.google.com/js/platform.js';
+        fs.parentNode.insertBefore(js,fs);js.onload=function(){g.load('analytics');};
+      }(window,document,'script'));
+      </script>
+    <noscript>
+      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>
